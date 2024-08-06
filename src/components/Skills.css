@@ -1,0 +1,92 @@
+.full{
+    background-color: rgb(58, 57, 57);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+hr{
+    width: 200px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.full h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    top: 30px;
+}
+.full p{
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 30px;
+}
+.par {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+h4{
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: -10px;
+    margin-left: 80px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: -5px;
+    line-height: 1.5;
+}
+.skills{
+    /* margin-top: -10px; */
+    /* margin-right: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end ;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 50px;
+    /* grid-column: 4 / 5; */
+}
+.skill span{
+    display: inline;
+    margin-bottom: 5px;
+}
+.skill-bar{
+    background-color: #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 700px;
+    
+}
+
+.skill-level {
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+.skl{
+    margin-left: 20px;
+    margin-top: 10px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    flex-basis: 30%;
+}
+/* .skl h4{ */
+    /* grid-row: 5/6; */
+
+.skills{
+    width: 100%;
+    flex-basis: 60%;
+
+}
+.skillbar-container{
+    width: 100%;
+}
